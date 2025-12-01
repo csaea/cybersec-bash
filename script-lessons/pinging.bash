@@ -9,7 +9,7 @@ iwgetid
 
 # 1. Find your IP address: 
 
-ipc a
+ip a
 
     # For example:
     # 192.168.0.1/24
