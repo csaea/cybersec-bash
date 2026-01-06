@@ -19,23 +19,24 @@ Quick reference for Bash/Linux commands. Bash (Bourne-Again Shell) is the defaul
 
 ---
 
-## Common Shortcuts and Commands
+## Helpful Shortcuts and Commands
 
-- **`Ctrl + C`**: Terminate current process.  
-- **`Tab`**: Autocomplete file or command name.  
-- **`Up/Down Arrow`**: Cycle through command history.  
-- **`Ctrl + A`**: Move cursor to the beginning of the line.  
+- **`Up/Down Arrow`**: Cycle through command history. 
 - **`clear` or `Ctrl + L`**: Clear terminal screen.
-- **`man`**: displays **man**ual documentation for a command. 
-- **`q`/`quit`/`exit`/`logout`**: End current shell or session, depending on context.
+- **`man`**: displays documentation (the **man**ual) for a command. ex: `man ls` or `man pwd` 
+- **`Ctrl + C`**: Terminate current process. Helpful when the shell appears stuck.
+- **`q`/`quit`/`exit`/`logout`**: End current shell or session, depending on context. 
+- **`Ctrl + A`**: Move cursor to the beginning of the line.  
+- **`Tab`**: Autocomplete file or command name. Type the first letter or two, then hit Tab.   
 
 ## File and Directory Basics
 
-Commands for navigating and managing files and directories.
+Commands for navigating and managing files and directories. 
+Options (like -a, -l, -r) go right after the command, such as `ls -a` or `rm -r Downloads` 
 
-- `ls`: List contents of current directory. Include hidden (-a) in long form (-l) or human-readable filesize (-h).
+- `ls`: List contents of current directory. Include hidden files (-a), long form (-l), or human-readable filesize (-h).
 - `pwd`: Print Working Directory. Displays path of current directory.  
-- `cd <directory>`: Change Directory to specified path.  
+- `cd <directory>`: Change Directory to specified path. (Use `ls` to spot available directories)
 - `cd ..`: Return to previous or parent directory.  
 - `mkdir <directory>`: Make new directory.
 - `rmdir <directory>`: Delete directory
@@ -54,8 +55,9 @@ Commands for viewing and manipulating file contents.
 - `head <file>`: Outputs first 10 lines of file.
 - `tail <file>`: Outputs last 10 lines of file.
 - `find`: Search. By file name (-name) or type (-type).
+
 - `open <file>`: Opens file outside terminal.
-- `nano <file>`: Edit file. Requires nano installed.
+- `nano <file>`: Edit file in the shell. Requires nano installed.
 
 ## Output and Redirection
 
@@ -64,12 +66,12 @@ Commands for output to terminal, and redirecting input and output.
 - `echo`: display message or variable value to terminal 
 - `>`: Direct output of a command into a file.  
   ```ex. echo "Hello, World!" > hello.txt```
-- `>>`: Append the output of a command into a file.  
+- `>>`: Append the output of a command to the end of a file.  
   ```ex. echo "Another line" >> hello.txt```
 - `<`: Direct input from a file to a command.  
   ```ex. sort < unsorted.txt```
 - `|`: Pipe the output of one command as input to another command.  
-  ```ex. ls -l | grep "txt"```
+  ```ex. ls -l | grep "txt"``` only displays files in directory that contain 'txt'
 
 ## Variables
 
