@@ -45,6 +45,7 @@ However, CTF challenges are **best** solved in Kali Linux, which comes with all 
 
 **Tools**
 
+* Common Tools -- [https://tools.cyber.org/dashboard](https://tools.cyber.org/dashboard)
 * CyberChef — [https://gchq.github.io/CyberChef/](https://gchq.github.io/CyberChef/)
 * Hex Editor (online) — [https://hexed.it/](https://hexed.it/)
 * Binwalk — [https://github.com/ReFirmLabs/binwalk](https://github.com/ReFirmLabs/binwalk)
@@ -119,6 +120,7 @@ However, CTF challenges are **best** solved in Kali Linux, which comes with all 
 
 * John the Ripper — [http://www.openwall.com/john/](http://www.openwall.com/john/)
 * hashid — [https://github.com/psypanda/hashid](https://github.com/psypanda/hashid)
+* Common Vulnerabilities and Exposures -- [https://www.cve.org/](https://www.cve.org/)
 
 **Tips**
 
