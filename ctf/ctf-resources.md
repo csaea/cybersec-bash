@@ -1,8 +1,11 @@
 # Capture The Flag — Resources
 
-## Kali Linux Environment (Required for Many Tools)
+## Kali Linux Environment 
 
-* **CYBER.ORG Kali Linux VM (browser-based)**
+CTF challenges can be solved using most computers. 
+However, CTF challenges are **best** solved in Kali Linux, which comes with all the tools you may need (especially for the harder challenges). 
+
+* **CYBER.ORG Kali Linux VM**
   [https://apps.cyber.org/](https://apps.cyber.org/)
 
 * **Official Kali Linux**
