@@ -156,12 +156,13 @@
 
 **Tools**
 
-* OSINT Framework — [https://osintframework.com/](https://osintframework.com/)
 * Search engines and official documentation
+* Google Advanced Search Operators (Google Dorking) — [https://ahrefs.com/blog/google-advanced-search-operators/](https://ahrefs.com/blog/google-advanced-search-operators/)
+* OSINT Framework — [https://osintframework.com/](https://osintframework.com/)
 
 **Tips**
 
-* Search exact phrases in quotation marks.
-* Cross-reference multiple sources.
-* Investigate usernames, domains, and metadata.
-* Verify credibility of sources before relying on data.
+* Use quotation marks for exact-phrase searches.
+* Verify authenticity of discovered data.
+* Use advanced Google operators (`site:`, `filetype:`, `intitle:`, `inurl:`) to refine queries and surface indexed but non-obvious content.
+
