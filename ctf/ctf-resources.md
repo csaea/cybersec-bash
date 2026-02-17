@@ -140,15 +140,16 @@
 
 **Tools / References**
 
-* Python — [https://www.python.org/](https://www.python.org/)
+* Python — [https://www.python.org/](https://docs.python.org/3.14/library/index.html)
 * SQL basics — [https://www.w3schools.com/sql/](https://www.w3schools.com/sql/)
+* Bash / Linux Command Line Guide — [https://linuxcommand.org/tlcl.php](https://linuxcommand.org/lc3_writing_shell_scripts.php)
 
 **Tips**
 
-* Read prompts carefully before coding.
-* Test logic incrementally.
-* Watch for SQL injection clues.
-* Automate repetitive tasks with short scripts.
+* Break problems into smaller steps before coding.
+* Print intermediate output to debug.
+* Watch for input validation weaknesses.
+* Automate repetitive decoding or parsing tasks.
 
 ---
 
