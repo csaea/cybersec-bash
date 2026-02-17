@@ -2,7 +2,7 @@
 
 ## Kali Linux Environment 
 
-CTF challenges can be solved using most computers. 
+CTF challenges can be solved using most computers with basic privileges. 
 However, CTF challenges are **best** solved in Kali Linux, which comes with all the tools you may need (especially for the harder challenges). 
 
 * **CYBER.ORG Kali Linux VM**
@@ -11,13 +11,6 @@ However, CTF challenges are **best** solved in Kali Linux, which comes with all 
 * **Official Kali Linux**
   [https://www.kali.org/](https://www.kali.org/)
 
-**Suggestions**
-
-* Use the CYBER.ORG VM if local installation is not allowed.
-* Many CTF tools (John, Wireshark, Burp, binwalk, steghide) are preinstalled in Kali.
-* Learn basic terminal navigation before using advanced tools.
-
----
 
 ## Practice CTF Platforms
 
@@ -31,9 +24,6 @@ However, CTF challenges are **best** solved in Kali Linux, which comes with all 
   [https://play.picoctf.org/practice](https://play.picoctf.org/practice)
   [https://picoctf.org/](https://picoctf.org/)
 
-* **CYBER.ORG Practice CTF** — curriculum-aligned challenges
-  [https://practice.ctfcyber.org/challenges](https://practice.ctfcyber.org/challenges)
-  [https://practice.ctfcyber.org/](https://practice.ctfcyber.org/)
 
 ---
 
